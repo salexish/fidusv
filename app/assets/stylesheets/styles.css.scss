@@ -1,0 +1,21 @@
+@import 'bootstrap';
+
+body {
+	padding-top: 65px;
+	color: $purple;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner{
+	@include box-shadow(none !important);
+	border: 1;
+}
+
+.footer{
+	margin-top: 45px;
+	color: $grayLight;
+	a{
+		color: $gray;
+	}
+}
